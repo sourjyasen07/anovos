@@ -1,7 +1,8 @@
 name: Demo
 on:
   push:
-
+    paths-ignore:
+      - '.github/**'
 
 jobs:
   run-demo:
